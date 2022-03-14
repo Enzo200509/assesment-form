@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+}
+
+@font-face {
+    font-family: Custom;
+    src: url(../Materiaal/fonts/static/ReadexPro-Light.ttf);
+}
+
+@font-face {
+    font-family: ppRight;
+    src: url(../Materiaal/fonts/PPRightGrotesk-WideMedium.ttf);
+}
+
+nav {
+    margin: auto;
+    width: 90%;
+    height: 100px;
+    /* border: 1px solid black; */
+    display: flex;
+}
+
+img {
+    width: 35%;
+}
+
+.container {
+    width: 90%;
+    display: flex;
+    margin: auto;
+}
+
+.containerLeft {
+    border: 1px solid green;
+    width: 45%;
+}
+
+.block {
+    width: 90%;
+    height: 150px;
+    border: purple 1px solid;
+    margin-bottom: 50px;
+}
+
+.containerMiddle {
+    border: 1px solid blue;
+    width: 30%;
+}
+
+.containerRight {
+    border: 1px solid red;
+    width: 20%;
+}
